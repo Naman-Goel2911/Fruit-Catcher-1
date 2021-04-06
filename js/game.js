@@ -52,7 +52,7 @@ class Game{
                      x = 500-allPlayers[plr].distance;
                      y=500;
                      
-                     players[index -1].x = x;
+                     players[index - 1].x = x;
                      players[index - 1].y = y;
                        
                      if(index === player.index){
@@ -64,7 +64,7 @@ class Game{
                          
                      }
                     
-                     
+                     text(allPlayers[plr].score, x-5, y-50)
                  
                  }
                 
